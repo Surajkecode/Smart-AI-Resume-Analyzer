@@ -1165,7 +1165,7 @@ class ResumeApp:
         st.markdown(f"""
             <div class="profile-section">
                 <img src="{image_base64 if image_base64 else 'https://www.ssinfotech.co/logo.png'}"
-                     alt="SS Infotech"
+                     alt="SS INFOTECH"
                      class="profile-image"
                      onerror="this.onerror=null; this.src='https://www.ssinfotech.co/logo.png';">
                 <h2 class="profile-name">Suraj Borkute/<h2>
