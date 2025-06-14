@@ -2798,7 +2798,7 @@ class ResumeApp:
                             import traceback as tb
                             st.code(tb.format_exc())
 
-        st.toast("Check out these repositories: [SS InFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
+        st.toast("Check out these repositories: [SS INFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
 
 
     def render_home(self):
