@@ -547,7 +547,7 @@ class ResumeApp:
         """Render the dashboard page"""
         self.dashboard_manager.render_dashboard()
 
-        st.toast("Check out these repositories: [Awesome Hacking](https://github.com/Hunterdii/Awesome-Hacking)", icon="ℹ️")
+        st.toast("Check out these repositories: [SS INFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
 
 
     def render_empty_state(self, icon, message):
@@ -1001,7 +1001,7 @@ class ResumeApp:
                 print(f"Full traceback: {traceback.format_exc()}")
                 st.error(f"❌ Error preparing resume data: {str(e)}")
 
-        st.toast("Check out these repositories: [30-Days-Of-Rust](https://github.com/Hunterdii/30-Days-Of-Rust)", icon="ℹ️")
+        st.toast("Check out these repositories: [SS INFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
 
     def render_about(self):
         """Render the about page"""
@@ -2798,7 +2798,7 @@ class ResumeApp:
                             import traceback as tb
                             st.code(tb.format_exc())
 
-        st.toast("Check out these repositories: [Awesome Java](https://github.com/Hunterdii/Awesome-Java)", icon="ℹ️")
+        st.toast("Check out these repositories: [SS InFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
 
 
     def render_home(self):
@@ -2850,7 +2850,7 @@ class ResumeApp:
         """Render the job search page"""
         render_job_search()
 
-        st.toast("Check out these repositories: [GeeksforGeeks-POTD](https://github.com/Hunterdii/GeeksforGeeks-POTD)", icon="ℹ️")
+        st.toast("Check out these repositories: [SS INFOTECH](https://github.com/Surajkecode)", icon="ℹ️")
 
 
     def render_feedback_page(self):
